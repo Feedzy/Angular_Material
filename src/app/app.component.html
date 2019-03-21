@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Third Line</span>
+      <span class="example-spacer"></span>
+
+      <a mat-button [matMenuTriggerFor]="menu"><mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">menu</mat-icon></a>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item>Item 1</a>
+    <a mat-menu-item>Item 2</a>
+  </mat-menu>
+    </mat-toolbar-row>
+</mat-toolbar>
+
